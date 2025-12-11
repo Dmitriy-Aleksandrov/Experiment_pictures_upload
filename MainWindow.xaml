@@ -1,0 +1,30 @@
+﻿<Window x:Class="Kachalka_clicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kachalka_clicker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize" >
+    <Grid>
+        <Image Source="C:\Users\user\source\repos\Kachalka clicker\obj\фон спортзал.jpg" Margin="-44,-44,-50,-66" ></Image>
+        
+        <Button x:Name="BGantel" Margin="330,344,328,45" Click="Gantel_Click">ТЯГАТЬ ГАНТЕЛИ</Button>
+        <Button x:Name="BPris" Margin="190,344,502,45" Click="BPris_Click">ПРИСЕДАТЬ</Button>
+        <Button x:Name="BGim" Margin="580,344,157,45" Click="BGim_Click" >ЖАТЬ</Button>
+        
+        <TextBlock x:Name="TBlevel" Margin="330,159,374,237" Background="AliceBlue" HorizontalAlignment="Center" >0</TextBlock>
+        <TextBlock Margin="330,123,374,260" Background="AliceBlue" HorizontalAlignment="Center">СЧЕТ</TextBlock>
+        <TextBlock x:Name="levelTB" Margin="444,123,260,260" Background="AliceBlue" HorizontalAlignment="Center">УРОВЕНЬ 0</TextBlock>
+        <TextBlock  Margin="190,48,137,298" FontFamily="Gadugi" FontWeight="Heavy" Foreground="Fuchsia" FontSize="50">КАЧАЛКА СИМ</TextBlock>
+
+        <Image x:Name="pris1" Source="C:\Users\user\source\repos\Kachalka clicker\obj\присяд 1.png" Margin="170,184,482,107" ></Image>
+        <Image x:Name="pris2" Source="C:\Users\user\source\repos\Kachalka clicker\obj\присяд 2.png" Margin="152,182,475,105" ></Image>
+        <Image x:Name="gantel1" Source="C:\Users\user\source\repos\Kachalka clicker\obj\гантель 1.png" Margin="313,197,313,129" ></Image>
+        <Image x:Name="gantel2" Source="C:\Users\user\source\repos\Kachalka clicker\obj\гантель 2.png" Margin="318,195,313,130" ></Image>
+        <Image x:Name="gim1" Source="C:\Users\user\source\repos\Kachalka clicker\obj\жим 1.png" Margin="520,166,98,100" ></Image>
+        <Image x:Name="gim2" Source="C:\Users\user\source\repos\Kachalka clicker\obj\жим 2.png" Margin="507,161,84,119" ></Image>
+        
+        
+    </Grid>
+</Window>
